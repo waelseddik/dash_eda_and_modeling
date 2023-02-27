@@ -1,7 +1,7 @@
 services:
   # See https://render.com/docs/blueprint-spec for more info on render blueprints
   - type: web
-    name: mydashapp
+    name: mydashedaapp
     env: python
     plan: free
     # A requirements.txt file must exist
@@ -11,3 +11,7 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.10.0
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b4d2809bba5ea92efddbd5715b40477a312bfb62
